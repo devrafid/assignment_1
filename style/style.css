@@ -68,9 +68,6 @@ nav button a{
     font-size: 16px;
     font-weight: 600;
 }
-nav button a:hover{
-    font-size: 18px;
-}
 /* Banner Section Css */
 .banner{
     background-image: url(/assets/hero-bg.png);
@@ -331,7 +328,6 @@ nav button a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1000px;
 }
 .e-main-div{
     width: 1360px;
@@ -395,4 +391,78 @@ nav button a:hover{
     font-size: 16px;
     font-weight: 600;
     text-align: left;
+}
+
+/* Footer Section css */
+.foot-sec{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #001931;
+}
+.f-main-div{
+    width: 1360px;
+    display: flex;
+    flex-direction: column;
+    margin: 120px auto 30px auto;
+    gap: 80px;
+    border: 1px solid red;
+}
+.f-div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.f-div1 img{
+    width: 139px;
+    height: 60px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    border: 1px solid red;
+    
+}
+.s-div1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+.s-div1 p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.s-div2{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    border: 1px solid red;
+}
+.s-div2 img{
+    width: 20px;
+    height: 20px;
+}
+.f-div2{
+    border: 1px solid red;
+}
+.f-div2 div{
+    border-bottom: 1px solid #E5E7EB;
+    margin-bottom: 40px;
+
+}
+.f-div2 p{
+    line-height: 24px;
+    color: #FAFAFA;
+}
+.f-div2 p a{
+    line-height: 24px;
+    color: #FAFAFA;
+    text-decoration: none;
 }
