@@ -70,11 +70,10 @@ nav button a{
 }
 /* Banner Section Css */
 .banner{
-    background-image: url(/assets/hero-bg.png);
+    background-image: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* height: 674px; */
     align-items: center;
     display: flex;
     justify-content: center
@@ -82,7 +81,7 @@ nav button a{
 .hero{
     width: 1360px;
     height: fit-content;
-    gap: 32px;
+    gap: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,6 +97,7 @@ nav button a{
     background-color:#FFFFFF ;
     align-items: center;
     justify-content: center;
+    margin-bottom: 16px;
 }
 #early-p{
     color: #469165;
@@ -125,10 +125,11 @@ nav button a{
     justify-content: center;
     display: flex;
     gap: 16px;
+    margin-top: 16px;
 }
 .hero-btn-box1{
     display: flex;
-    width: 251px;
+    width: 260px;
     height: 52px;
     border-radius: 4px;
     padding: 12px 16px;
@@ -140,6 +141,7 @@ nav button a{
 }
 .hero-btn-box1:hover{
     background-color: #F95555;
+    gap: 15px;
 }
 .hero-btn-1{
     border: none;
@@ -156,19 +158,20 @@ nav button a{
 }
 .hero-btn-box2{
     display: flex;
-    width: 210px;
+    width: 200px;
     height: 52px;
     border-radius: 4px;
     padding: 12px 16px;
     background-color: #00000000;
     border: 1px solid white;
-    align-content: center;
+    justify-content: right;
     gap: 10px;
     cursor: pointer;
     transition-duration: 200ms;
 }
 .hero-btn-box2:hover{
     background-color: #F95555;
+    gap: 15px;
 }
 .hero-btn-2{
     border: none;
@@ -181,6 +184,8 @@ nav button a{
     font-weight: 600;
 }
 .hero-btn-img{
+    width: 20px;
+    height: 20px;
     align-items: center;
     justify-content: center;
     align-self: center;
@@ -407,13 +412,11 @@ nav button a{
     flex-direction: column;
     margin: 120px auto 30px auto;
     gap: 80px;
-    border: 1px solid red;
 }
 .f-div1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid red;
 }
 .f-div1 img{
     width: 139px;
@@ -423,14 +426,12 @@ nav button a{
     display: flex;
     flex-direction: column;
     gap: 16px;
-
-    border: 1px solid red;
-    
+    justify-content: space-between;
+    margin-right: 100px;
 }
 .s-div1{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
 }
 .s-div1 p{
     font-size: 20px;
@@ -443,17 +444,20 @@ nav button a{
     display: flex;
     flex-direction: row;
     gap: 16px;
-    border: 1px solid red;
+    justify-content: left;
 }
 .s-div2 img{
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 .f-div2{
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .f-div2 div{
-    border-bottom: 1px solid #E5E7EB;
+    border-bottom: 1px solid #E5E7EB33;
     margin-bottom: 40px;
 
 }
