@@ -114,7 +114,8 @@ nav button a{
     font-size: 72px;
     font-weight: 700;
     line-height: 84px;
-    color: white
+    color: white;
+    text-transform: capitalize;
 }
 .hero-h1 span{
     color:#30B868 ;
