@@ -16,6 +16,7 @@ p{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
 /* Nav-bar css */
 nav div img{
     width:139px ;
@@ -40,13 +41,17 @@ nav{
     align-items: center;
     
 }
-nav .menu a{
+.menu a{
     text-decoration: none;
     color: #000000;
     font-size: 16px;
     font-weight: 500;
     line-height: 152%;
     text-transform: capitalize;
+    transition-duration: 200ms;
+}
+.menu a:hover{
+    color: #30B868;
 }
 nav button{
     color: white;
